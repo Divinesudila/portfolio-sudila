@@ -1,0 +1,95 @@
+{
+  "name": "Maquette Figma - Portfolio Sudila",
+  "type": "mobile-prototype",
+  "screens": [
+    {
+      "id": "screen-001",
+      "name": "Accueil",
+      "elements": [
+        {
+          "type": "text",
+          "value": "Sudila Mukeba Divine",
+          "style": "title"
+        },
+        {
+          "type": "text",
+          "value": "Étudiante en informatique",
+          "style": "subtitle"
+        },
+        {
+          "type": "button",
+          "value": "Me contacter",
+          "link": "/contact"
+        }
+      ]
+    },
+    {
+      "id": "screen-002",
+      "name": "À propos",
+      "elements": [
+        {
+          "type": "image",
+          "src": "photo1.jpg"
+        },
+        {
+          "type": "text",
+          "value": "Biographie et objectifs de Sudila"
+        }
+      ]
+    },
+    {
+      "id": "screen-003",
+      "name": "Articles",
+      "elements": [
+        {
+          "type": "article-box",
+          "title": "Ma première journée à l’université"
+        },
+        {
+          "type": "article-box",
+          "title": "Comment je gère les examens"
+        }
+      ]
+    },
+    {
+      "id": "screen-004",
+      "name": "Vision",
+      "elements": [
+        {
+          "type": "card",
+          "icon": "💡",
+          "title": "Barrage hydroélectrique"
+        },
+        {
+          "type": "card",
+          "icon": "🏥",
+          "title": "Orphelinats & hôpitaux"
+        }
+      ]
+    },
+    {
+      "id": "screen-005",
+      "name": "Contact",
+      "elements": [
+        {
+          "type": "form",
+          "fields": [
+            "Nom",
+            "Email",
+            "Message"
+          ]
+        },
+        {
+          "type": "button",
+          "value": "Envoyer"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "createdBy": "ChatGPT",
+    "date": "2025-05-23",
+    "responsive": true,
+    "designSystem": "Poppins / Bleu & blanc"
+  }
+}
